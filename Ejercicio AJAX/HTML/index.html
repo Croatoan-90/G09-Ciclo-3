@@ -6,14 +6,32 @@
     <meta charset="UTF-8">
     <title> Ajax</title>
     <script  type="text/javascript" src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="E:\Files\MinTic2022\Ciclo 3\Ejercicio AJAX\js\misFunciones.js"> </script>
-    <link href="E:\Files\MinTic2022\Ciclo 3\Ejercicio AJAX\CSS\index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/misFunciones.js"> </script>
+    <link rel="stylesheet" href="/CSS/index.css">
 
 </head>
 <body>
-    <h1>Tutorial de Ajax</h1>
+    <h1 id="titulo">Tutorial de Ajax</h1>
+    <div><button onclick="traerInformacion()">Patinetas</button><button >Clientes</button><button>Mensajes</button></div>
     <div id="Resultado">
-        <button onclick="traerInformacion()">Consultar</button>
+        <h1>Patinetas</h1>  
+        <table>
+            <tr>
+                <td><b>Id</bg></td>
+                <td><b>Marca</b></td>
+                <td><b>Modelo</b></td>
+                <td><b>Categoria</b></td>
+                <td><b>Nombre</b></td>
+            </tr>
+            <tr>
+                <td id="id"> 1</td>
+                <td id="marca">2 </td>
+                <td id="modelo"> 3</td>
+                <td id="categoria">4</td>
+                <td id="nombre"> 5</td>
+
+            </tr>
+        </table>   
     </div>
 </body>
    
