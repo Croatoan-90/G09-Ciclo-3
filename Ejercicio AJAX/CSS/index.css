@@ -9,24 +9,13 @@
 }
 
 table{
-    border-style: solid;
-    border-color:black;
+    
     margin-left: auto;
     margin-right: auto;
-}
-
-th{
-    border-style: solid;
-    border-color:black;
-   
-}
-
-td{
-    border-style: solid;
-    border-color:black;
     text-align: center;
-    
 }
+
+
 
 button{
 
