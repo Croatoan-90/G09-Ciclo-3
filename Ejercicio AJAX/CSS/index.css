@@ -6,6 +6,7 @@
     border-style: solid;
     border-color: black;
     
+    
 }
 
 table{
@@ -15,13 +16,18 @@ table{
     text-align: center;
 }
 
+#botones{
 
+    align-self: center;
+    display: flex;
+    margin: auto;
+}
 
 button{
 
     background-color: brown;
     color:white;
-    margin-left: 70px;
+    margin-right: 70px;
     
 }
 html{
