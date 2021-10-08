@@ -1,0 +1,77 @@
+#titulo {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 0, 255);
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    
+    
+}
+
+table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#botones{
+
+    align-self: center;
+    display: flex;
+    margin: auto;
+}
+
+
+#guardar{
+    background-color: green;
+    color:white;
+    margin-right: 70px;
+    
+}
+
+#guardar:active{
+    background-color: red;
+}
+
+#traer{
+    background-color: blue;
+}
+
+#traer:active{
+    background-color: purple;
+}
+
+button{
+
+    background-color: brown;
+    color:white;
+    margin-right: 70px;
+    
+}
+
+button:active{
+
+    background-color: blue;
+}
+html{
+
+    margin: 10%;
+    border-style: solid;
+    border-color: black;
+}
+
+#borrar{
+    background-color: red;
+}
+#borrar:active{
+    background-color: green;
+}
+
+#actualizar{
+    background-color: blue;
+}
+#actualizar:active{
+    background-color: violet;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <script  type="text/javascript" src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/misFunciones.js"> </script>
+    <link rel="stylesheet" href="/CSS/index.css">
+
+</head>
+<body>
+    <h1 id="titulo">Reto 2 - Ciclo 3 Mintic 2022</h1>
+    <div><button id="traer" onclick="traerInformacionPatineta()">Patinetas</button><button id="traer" onclick="traerInformacionCliente()">Clientes</button><button  id="traer" onclick="traerInformacionMensaje()">Mensajes</button>
+    <br> <br> <button onclick="mostrarAdicionPatineta()">Adicionar/Actualizar Patineta</button><button onclick="mostrarAdicionCliente()">Adicionar/Actualizar Cliente</button><button onclick="mostrarAdicionMensaje()">Adicionar/Actualizar Mensaje</button></div>
+    <div id="Resultado">
+    
+    </div>
+    <div id="AdicionPatineta" style = "display: none">
+        <br>
+        <input type="number" id= "idPat" placeholder="Id">
+        <input type="text" id= "brand" placeholder="Marca">
+        <input type="number" id= "model" placeholder="Modelo">
+        <input type="number" id= "category_id" placeholder="Categoría">
+        <input type="text" id= "namePat" placeholder="Nombre">
+        <button id="guardar" onclick="guardarInformacionPatinetas()">Guardar</button>
+        <button id="actualizar" onclick="actualizarInformacionPatineta()">Actualizar</button>
+
+    </div>
+    <div id="AdicionCliente" style = "display: none">
+        <br>
+        <input type="number" id= "idClien" placeholder="Id">
+        <input type="text" id= "nameClien" placeholder="Nombre">
+        <input type="text" id= "email" placeholder="Email">
+        <input type="number" id= "age" placeholder="Edad">
+        <button id="guardar" onclick="guardarInformacionClientes()">Guardar</button>
+        <button id="actualizar" onclick="actualizarInformacionCliente()">Actualizar</button>
+
+    </div>
+
+    <div id="AdicionMensaje" style = "display: none">
+        <br>
+        <input type="number" id= "idMen" placeholder="Id">
+        <input type="text" id= "message" placeholder="Mensaje">
+        <button id="guardar" onclick="guardarInformacionMensaje()">Guardar</button>
+        <button id="actualizar" onclick="actualizarInformacionMensaje()">Actualizar</button>
+
+    </div>
+</body>
+   
+</html>
+
